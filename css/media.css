@@ -284,6 +284,18 @@
       width: 269px;
       margin: 30px auto 0 auto;
     }
+    .vacancy{
+      background-position: -179px 0;
+    }
+    .vehicle .main__title,
+    .vehicle .main__subtitle,
+    .vacancy .main__title,
+    .vacancy .main__subtitle{
+      text-align: center;
+    }
+    .vacancy .main__title{
+      padding-top: 180px;
+    }
   }
 
   @media (max-width:576px) {
