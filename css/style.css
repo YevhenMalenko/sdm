@@ -42,7 +42,6 @@ h2{
   border: none;
   outline: none;
   cursor: pointer;
-  z-index: 11;
 }
 .page__header{
   background-repeat: no-repeat;
@@ -68,6 +67,9 @@ h2{
   align-items: center;
 }
 .logo{
+  z-index: 11;
+}
+.header .default__btn{
   z-index: 11;
 }
 .logo img{
