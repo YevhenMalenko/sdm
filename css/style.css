@@ -237,6 +237,24 @@ h2{
   margin-bottom: 25px;
   resize: none;
 }
+.form__input-file{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.form__input-file + label {
+  background-image: url(../images/file.svg);
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
+  bottom: 115px;
+  right: 40px;
+  cursor: pointer;
+}
 .form__btn{
   color: #fff;
   font-size: 16px;
